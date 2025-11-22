@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d6e06c3534b45b2bb8974da0591e741" Name="Diagram1">
+        <EntityTypeShape EntityType="NewTechnologiModel.Material_" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Material_type_" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Partner_products_request_" Width="1.5" PointX="12.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Partners_" Width="1.5" PointX="10" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Products_" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Products_Application" Width="1.5" PointX="14.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Products_in_materials" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Provider" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.sysdiagram" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Type_partners_" Width="1.5" PointX="7.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Type_products_" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Type_provider" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NewTechnologiModel.Unit_measurement" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Material__Material_type_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Material__Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Material__Unit_measurement" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Products_in_materials_Material_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Partner_products_request__Partners_1" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_ProductsIn_Application_Partner_products_request_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Partners__Type_partners_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Products__Type_products_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Products_in_materials_Products_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_ProductsIn_Application_Products_" ManuallyRouted="false" />
+        <AssociationConnector Association="NewTechnologiModel.FK_Provider_Type_provider" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

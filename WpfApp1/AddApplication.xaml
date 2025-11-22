@@ -1,0 +1,166 @@
+﻿<Window x:Class="WpfApp1.AddApplication"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Добавление заявки" 
+        Height="700" 
+        Width="800"
+        Background="White"
+        FontFamily="Bahnschrift Light SemiCondensed">
+
+    <Grid Margin="20" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая панель: список продукции -->
+        <Border Grid.Column="0" 
+                Background="#BBDCFA" 
+                CornerRadius="8" 
+                Padding="10"
+                BorderBrush="#0C4882"
+                BorderThickness="1">
+            <ListView x:Name="ListProdukt" Background="White" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListProdukt_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Background="White" 
+                                CornerRadius="6" 
+                                Margin="4" 
+                                Padding="12"
+                                BorderBrush="#0C4882"
+                                BorderThickness="1">
+                            <TextBlock Text="{Binding Name_products}"
+                                       FontSize="14"
+                                       FontWeight="Medium"
+                                       TextWrapping="Wrap"
+                                       TextAlignment="Center"
+                                       Foreground="#0C4882"/>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" MaxWidth="480"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+        </Border>
+
+        <StackPanel Grid.Column="1" Margin="20,0,0,0" Background="White">
+            <TextBlock Text="Детали продукции" 
+                       FontSize="18" 
+                       FontWeight="Bold" 
+                       Margin="0,0,0,15"
+                       Foreground="#0C4882"/>
+
+            <TextBlock Text="Наименование продукции:" 
+                       FontWeight="SemiBold" 
+                       Margin="0,0,0,4"
+                       Foreground="#0C4882"/>
+            <TextBox x:Name="Name" 
+                     IsReadOnly="True" 
+                     Background="White" 
+                     BorderBrush="#0C4882" 
+                     BorderThickness="1" 
+                     Padding="6" 
+                     Margin="0,0,0,12" 
+                     TextWrapping="Wrap"
+                     Foreground="#333333"/>
+
+            <TextBlock Text="Артикул:" 
+                       FontWeight="SemiBold" 
+                       Margin="0,0,0,4"
+                       Foreground="#0C4882"/>
+            <Label x:Name="Articul" 
+                   Content="" 
+                   Background="White" 
+                   BorderBrush="#0C4882" 
+                   BorderThickness="1" 
+                   Padding="6" 
+                   Margin="0,0,0,12" 
+                   Height="32"
+                   Foreground="#333333"/>
+
+            <TextBlock Text="Минимальная стоимость для партнёра:" 
+                       FontWeight="SemiBold" 
+                       Margin="0,0,0,4"
+                       Foreground="#0C4882"/>
+            <Label x:Name="Price" 
+                   Content="" 
+                   Background="White" 
+                   BorderBrush="#0C4882" 
+                   BorderThickness="1" 
+                   Padding="6" 
+                   Margin="0,0,0,12" 
+                   Height="32"
+                   Foreground="#333333"/>
+
+            <TextBlock Text="Тип продукции:" FontWeight="SemiBold" Margin="0,0,0,4" Foreground="#0C4882"/>
+            <ComboBox x:Name="TypeProduct" IsReadOnly="True" Background="White" BorderBrush="#0C4882" BorderThickness="1" Padding="6" Margin="0,0,0,12" Foreground="#333333" DisplayMemberPath="Type"/>
+
+            <TextBlock Text="Партнёр:" FontWeight="SemiBold" Margin="0,0,0,4" Foreground="#0C4882"/>
+            <ComboBox x:Name="Partnersik" IsReadOnly="True" Background="White" BorderBrush="#0C4882" BorderThickness="1" Padding="6" Margin="0,0,0,12" Foreground="#333333" DisplayMemberPath="Name_partners"/>
+
+
+            <TextBlock Text="Количество:" 
+                       FontWeight="SemiBold" 
+                       Margin="0,0,0,8"
+                       Foreground="#0C4882"/>
+            <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Center" 
+                        Margin="0,0,0,20">
+                <Button x:Name="Minus" 
+                        Content="-" 
+                        Width="40" 
+                        Height="40" 
+                        FontSize="20" 
+                        Background="#0C4882" 
+                        Foreground="White" 
+                        BorderThickness="0" 
+                        Click="Minus_Click"/>
+
+                <TextBox x:Name="CountProduct" 
+                         Width="80" 
+                         Height="40" 
+                         TextAlignment="Center" 
+                         IsEnabled="False" 
+                         FontSize="16" 
+                         VerticalContentAlignment="Center" 
+                         Margin="8,0"
+                         Background="White"
+                         BorderBrush="#0C4882"
+                         BorderThickness="1"
+                         Foreground="#333333"/>
+                <Button x:Name="Plus" 
+                        Content="+" 
+                        Width="40" 
+                        Height="40" 
+                        FontSize="20" 
+                        Background="#0C4882" 
+                        Foreground="White" 
+                        BorderThickness="0" 
+                        Click="Plus_Click"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <Button x:Name="DobavitVZayvky" 
+                        Content="Добавить в заявку" 
+                        Width="240" 
+                        Height="44" 
+                        FontSize="16" 
+                        FontWeight="SemiBold"
+                        Background="#0C4882" 
+                        Foreground="White" 
+                        BorderThickness="0" 
+                        Margin="0,0,0,12" 
+                        Click="DobavitVZayvky_Click"/>
+                <Button x:Name="SozdatiZayvky" Content="Создать заявку" Width="240" Height="44" FontSize="16" FontWeight="SemiBold" Background="#0C4882" Foreground="White" BorderThickness="0" Margin="0,0,0,12" Click="SozdatiZayvky_Click"/>
+                <Button x:Name="Nazad" Content="Назад" Width="240" Height="44" FontSize="16" FontWeight="SemiBold" Background="#0C4882" Foreground="White" BorderThickness="0" Margin="0,0,0,12" Click="Nazad_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
