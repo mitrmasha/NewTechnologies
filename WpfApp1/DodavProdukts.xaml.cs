@@ -37,6 +37,9 @@ namespace WpfApp1
             idpartners = RedakZayvka.idpart;
         }
 
+        /// <summary>
+        /// DobavitVZayvky_Click - добавление продукции в заявку
+        /// </summary>
         private void DobavitVZayvky_Click(object sender, RoutedEventArgs e)
         {
             if (ListProdukt.SelectedItem == null)
@@ -91,7 +94,9 @@ namespace WpfApp1
                 CountProduct.Text = "99";
             }
         }
-
+        /// <summary>
+        /// ListProdukt_SelectionChanged - получение данных по нажатию на объект на фооме
+        /// </summary>
         private void ListProdukt_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var SelectProduct = ListProdukt.SelectedItem as Products_;

@@ -1,0 +1,60 @@
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe.config
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\RedakZayvka.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\RedakZayvka.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\AddApplication.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\AddApplication.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\DodavProdukts.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\WpfApp1\WpfApp1\obj\Debug\DodavProdukts.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe.config
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\AddApplication.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\DodavProdukts.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\RedakZayvka.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\AddApplication.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\DodavProdukts.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\RedakZayvka.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.Up2Date
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\PredlagaemaProdukt.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\PredlagaemaProdukt.baml
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\Rachet.g.cs
+C:\Users\Мария\Desktop\МДК.02.02\МДК.02.02\Задание на C#\WpfApp1\WpfApp1\obj\Debug\Rachet.baml

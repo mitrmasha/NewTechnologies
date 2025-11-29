@@ -18,8 +18,8 @@
 
         <TextBlock Text="Редактирование заявки" FontSize="24" FontWeight="SemiBold" Foreground="#0C4882" Margin="0,0,0,20"/>
 
-        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Background="White">
-            <Grid Height="254" Background="White">
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Background="White" Margin="0,0,0,45" Grid.RowSpan="2">
+            <Grid Height="276" Background="White">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="20"/>
@@ -73,6 +73,7 @@
                         </DataGridTemplateColumn>
                     </DataGrid.Columns>
                 </DataGrid>
+                <TextBlock Grid.Column="2" Margin="0,2,0,-32" Grid.Row="11"><Hyperlink Click="Hyperlink_Click">Добавить продукцию в заявку</Hyperlink></TextBlock>
             </Grid>
         </ScrollViewer>
 

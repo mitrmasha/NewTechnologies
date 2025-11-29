@@ -13,8 +13,8 @@
 
     <Grid Margin="20" Background="White">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="507*"/>
+            <ColumnDefinition Width="253*"/>
         </Grid.ColumnDefinitions>
 
         <!-- Левая панель: список продукции -->
@@ -145,7 +145,7 @@
                         BorderThickness="0" 
                         Click="Plus_Click"/>
             </StackPanel>
-            
+
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
                 <Button x:Name="DobavitVZayvky" 
                         Content="Добавить в заявку" 

@@ -17,6 +17,7 @@ namespace WpfApp1
         public int ID { get; set; }
         public int ID_products { get; set; }
         public int ID_material { get; set; }
+        public Nullable<double> RequiredQuantity { get; set; }
     
         public virtual Material_ Material_ { get; set; }
         public virtual Products_ Products_ { get; set; }

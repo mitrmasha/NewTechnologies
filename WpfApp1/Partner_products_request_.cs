@@ -23,7 +23,7 @@ namespace WpfApp1
         public int ID { get; set; }
         public int ID_partners { get; set; }
         public double Cost { get; set; }
-        public DateTime DateApplication { get; set; }
+        public System.DateTime DateApplication { get; set; }
     
         public virtual Partners_ Partners_ { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -28,5 +28,6 @@
         </ListView>
         <Button x:Name="addPartnerBtn" Content="Добавить заявку" HorizontalAlignment="Left" Margin="19,13,0,0" VerticalAlignment="Top"  Background="#0C4882" Width="205" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Grid.Row="2" Grid.Column="1" Click="addPartnerBtn_Click"/>
         <Button x:Name="redactPartnerBtn" Content="Редактировать заявку" HorizontalAlignment="Left" Margin="283,13,0,0" VerticalAlignment="Top" Background="#0C4882" Width="204" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Grid.Row="2" Grid.Column="1" Click="redactPartnerBtn_Click"/>
+        <Button x:Name="predlag" Content="Предлагаема продукция" HorizontalAlignment="Left" Margin="536,13,0,0" VerticalAlignment="Top" Background="#0C4882" Width="204" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Grid.Row="2" Grid.Column="1" Click="predlag_Click"/>
     </Grid>
 </Window>

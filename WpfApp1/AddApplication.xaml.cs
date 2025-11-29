@@ -19,6 +19,9 @@ namespace WpfApp1
     /// </summary>
     public partial class AddApplication : Window
     {
+        /// <summary>
+        /// partlist  - лист с данными о партнёрах
+        /// </summary>
         public static NewTechnologiEntities entities = new NewTechnologiEntities();
         public static List<Partners_> partlist = MainWindow.entities.Partners_.ToList();
         public static int idproduct;

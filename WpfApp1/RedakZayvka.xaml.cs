@@ -34,6 +34,11 @@ namespace WpfApp1
         public RedakZayvka()
         {
             InitializeComponent();
+
+            /// <summary>
+            ///productsForThisOrder - для вывода данных на форму
+            /// </summary>
+
             list.Clear();
 
             var productsForThisOrder = from pa in MainWindow.entities.Products_Application
@@ -77,6 +82,9 @@ namespace WpfApp1
             MainWindow mainWindow = new MainWindow();
             this.Hide();
         }
+        /// <summary>
+        ///SetOrderData- метод для получения данных с другой формы
+        /// </summary>
         public void SetOrderData()
         {
             idzayvka = MainWindow.idi;

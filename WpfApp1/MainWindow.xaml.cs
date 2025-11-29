@@ -23,7 +23,9 @@ namespace WpfApp1
             TakePartners();
         }
 
-
+        /// <summary>
+        /// TakePartners - метод для вывода информации на форме
+        /// </summary>
         private void TakePartners() //метод для вывода партнеров в листвью
         {
             try
@@ -113,6 +115,9 @@ namespace WpfApp1
             }
         }
 
+        /// <summary>
+        /// redactPartnerBtn_Click - метод для передачи данных на другую форму
+        /// </summary>
         private void redactPartnerBtn_Click(object sender, RoutedEventArgs e)
         {
             if (listP.SelectedItem != null)
@@ -152,6 +157,12 @@ namespace WpfApp1
         {
             AddApplication addApplication = new AddApplication();
             addApplication.Show();
+        }
+
+        private void predlag_Click(object sender, RoutedEventArgs e)
+        {
+                        PredlagaemaProdukt predlagaemaProdukt = new PredlagaemaProdukt();
+                        predlagaemaProdukt.Show();
         }
     }
 }
